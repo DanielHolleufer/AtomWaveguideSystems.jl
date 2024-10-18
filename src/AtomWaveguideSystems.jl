@@ -1,5 +1,7 @@
 module AtomWaveguideSystems
 
-# Write your package code here.
+export AtomWaveguideSystem
+
+include("atom_waveguide_system.jl")
 
 end
