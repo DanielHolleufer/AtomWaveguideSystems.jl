@@ -1,6 +1,6 @@
 using AtomWaveguideSystems
 using Test
 
-@testset "AtomWaveguideSystems.jl" begin
-    # Write your tests here.
+@testset verbose = true "AtomWaveguideSystems.jl" begin
+    include("propagation_constant.jl")
 end

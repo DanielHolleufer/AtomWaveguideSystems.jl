@@ -3,7 +3,13 @@ uuid = "672ae778-2a5d-42ad-9a27-868a7cf646fb"
 authors = ["Daniel Holleufer <daniel.holleufer@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+
 [compat]
+Bessels = "0.2.8"
+NonlinearSolve = "3.15.1"
 julia = "1.11"
 
 [extras]
